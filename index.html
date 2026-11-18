@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f97316">
+  <title>FSS Control Center — Welding Department</title>
+  <style>
+    :root { color-scheme: light; font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    body { margin: 0; background: #f5f6f8; color: #182230; }
+    main { max-width: 760px; margin: 8vh auto; padding: 28px; }
+    .panel { background: white; border: 1px solid #e5e7eb; border-radius: 18px; padding: 32px; box-shadow: 0 12px 36px #1720330d; }
+    .mark { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 14px; background: #fff0e6; color: #ea580c; font-weight: 800; }
+    h1 { margin: 18px 0 8px; font-size: clamp(28px, 5vw, 40px); }
+    p { line-height: 1.65; color: #596579; }
+    a.download { display: inline-block; margin: 16px 0; padding: 13px 20px; border-radius: 10px; background: #ea580c; color: white; text-decoration: none; font-weight: 700; }
+    ol { color: #344054; line-height: 1.9; padding-left: 22px; }
+    .note { padding: 14px 16px; border-radius: 10px; background: #fff7ed; color: #9a3412; font-size: 14px; }
+    footer { margin-top: 22px; font-size: 13px; color: #7b8494; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <div class="mark">FSS</div>
+      <h1>FSS Control Center</h1>
+      <p>Welding Department — aplikasi pengolahan Data FSS, SCH Update, dan Tanpa Rumus.</p>
+      <p>Frontend dan halaman informasi tersedia melalui GitHub Pages. Pengolahan Excel berjalan di laptop Windows masing-masing pengguna.</p>
+      <a class="download" href="https://github.com/fsscontrolcenter/fsscontrolcenter/releases/latest/download/FSS-Control-Center-Windows.zip">Download Launcher Windows</a>
+      <h2>Cara menggunakan</h2>
+      <ol>
+        <li>Download dan ekstrak ZIP Launcher.</li>
+        <li>Jalankan <strong>FSSControlCenter.exe</strong>.</li>
+        <li>Tunggu sampai status backend aktif dan browser terbuka.</li>
+        <li>Gunakan aplikasi. File Excel diproses di laptop ini.</li>
+        <li>Tutup jendela Launcher untuk menghentikan aplikasi.</li>
+      </ol>
+      <div class="note">Fitur SCH Update dan beberapa proses Tanpa Rumus yang memakai xlwings memerlukan Microsoft Excel desktop terpasang di Windows.</div>
+      <footer>FSS Control Center — Welding Department</footer>
+    </section>
+  </main>
+</body>
+</html>
